@@ -1,0 +1,4 @@
+
+export const PHOTOS_REQUEST = 'PHOTOS_REQUEST';
+export const PHOTOS_RECEIVE = 'PHOTOS_RECEIVE';
+export const PHOTOS_ERROR = 'PHOTOS_ERROR';

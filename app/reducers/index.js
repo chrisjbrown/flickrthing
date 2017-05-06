@@ -1,11 +1,13 @@
 // @flow
 import { combineReducers } from 'redux';
 import { routerReducer as router } from 'react-router-redux';
-import counter from './counter';
+import User from './User';
+import Photos from './Photos';
 
 const rootReducer = combineReducers({
-  counter,
   router,
+  User,
+  Photos
 });
 
 export default rootReducer;
